@@ -33,10 +33,10 @@ sudo -s
 ```
 ## Sample Application
 In the sample application, there is the point cloud, depth map, and RGB views
-![Sample Application Screenshot](samples/limu_tof_ros/limu_sample.png)
+![Sample Application Screenshot](samples/ros/limu_sample.png)
 ## Changing Configurations
 In sensor configuration, there any many settings that will affect the image produced. Refer to below screenshot
-![Sensor Congiuration](samples/limu_tof_ros/limu_config.png)
+![Sensor Congiuration](samples/ros/limu_config.png)
 - **lens_type** can be changed between 3 modes, WideField, StandardField, and NarrowField. Refer to specs documentation for more details
 - **frequency_modulation** can be used to change the frequency modulation. It is suggested to use the default (6MHz).
 - **channel** can be used to allow multiple sensors to be used in close proximity without interfering with each other. Sensors on different channels will not affect the infared light of another sensor if they happen to be in the same room and/or used next to each other
