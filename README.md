@@ -11,7 +11,7 @@ Limu Lidar Sensor
 - Install ROS in your Ubuntu environment, please refer to the instruction:
   https://wiki.ros.org/Installation/Ubuntu
 ## Pinout and Wiring
-![Wired connection settings](LiMu_Pinout.jpg.png)
+![Wired connection settings](LiMu_Pinout.jpg)
 ## Quick Start
 1. Power on sensor and connect it to PC using network cable
 2. Once connected, go to network settings and under 'Wired' click the configuration button
