@@ -13,7 +13,7 @@ Limu Lidar Sensor
 ## Quick Start
 1. Power on sensor and connect it to PC using network cable
 2. Once connected, go to network settings and under 'Wired' click the configuration button
-![Wired connection settings](samples/limu_tof_ros/limu_wired.png)
+![Wired connection settings](samples/ros/limu_wired.png)
 4. Refer to above screenshot. Click on 'IPv4', then under 'IPv4 Method' click 'Manual'
 	- Under 'Address', add a static IP address to PC in the form of ```10.10.31.XXX```, the last 3 digits cannot be exactly 180 since that is the sensor's static IP address
 	- Under 'Netmask', add ```255.255.255.0```
