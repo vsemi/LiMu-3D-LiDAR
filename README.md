@@ -7,13 +7,15 @@ Limu Lidar Sensor
 - Linux PC
 - AC/DC Adapter with 24V and 4A output
 - (Optional) Router with stable network connection
+## Pinout and Wiring
+![Wired connection settings](LiMu_Pinout.jpg)
 ## Prerequisite
 - Install ROS in your Ubuntu environment, please refer to the instruction:
   https://wiki.ros.org/Installation/Ubuntu
 ## Quick Start
 1. Power on sensor and connect it to PC using network cable
 2. Once connected, go to network settings and under 'Wired' click the configuration button
-![Wired connection settings](samples/limu_tof_ros/limu_wired.png)
+![Wired connection settings](samples/ros/limu_wired.png)
 4. Refer to above screenshot. Click on 'IPv4', then under 'IPv4 Method' click 'Manual'
 	- Under 'Address', add a static IP address to PC in the form of ```10.10.31.XXX```, the last 3 digits cannot be exactly 180 since that is the sensor's static IP address
 	- Under 'Netmask', add ```255.255.255.0```
@@ -33,10 +35,10 @@ sudo -s
 ```
 ## Sample Application
 In the sample application, there is the point cloud, depth map, and RGB views
-![Sample Application Screenshot](samples/limu_tof_ros/limu_sample.png)
+![Sample Application Screenshot](samples/ros/limu_sample.png)
 ## Changing Configurations
 In sensor configuration, there any many settings that will affect the image produced. Refer to below screenshot
-![Sensor Congiuration](samples/limu_tof_ros/limu_config.png)
+![Sensor Congiuration](samples/ros/limu_config.png)
 - **lens_type** can be changed between 3 modes, WideField, StandardField, and NarrowField. Refer to specs documentation for more details
 - **frequency_modulation** can be used to change the frequency modulation. It is suggested to use the default (6MHz).
 - **channel** can be used to allow multiple sensors to be used in close proximity without interfering with each other. Sensors on different channels will not affect the infared light of another sensor if they happen to be in the same room and/or used next to each other
