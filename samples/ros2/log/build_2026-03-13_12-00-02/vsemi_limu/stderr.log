@@ -1,0 +1,111 @@
+[0m** WARNING ** io features related to pcap will be disabled[0m
+In file included from [01m[K/home/vsemi/dev/LiMu-3D-LiDAR/driver/src/frame.cpp:1[m[K:
+[01m[K/home/vsemi/dev/LiMu-3D-LiDAR/samples/ros2/vsemi_limu/../../../driver/include/frame.hpp:[m[K In constructor ‘[01m[KFrame::Frame(uint16_t, uint64_t, uint16_t, uint16_t, uint16_t)[m[K’:
+[01m[K/home/vsemi/dev/LiMu-3D-LiDAR/samples/ros2/vsemi_limu/../../../driver/include/frame.hpp:21:14:[m[K [01;35m[Kwarning: [m[K‘[01m[KFrame::frame_id[m[K’ will be initialized after [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+   21 |     uint64_t [01;35m[Kframe_id[m[K;
+      |              [01;35m[K^~~~~~~~[m[K
+[01m[K/home/vsemi/dev/LiMu-3D-LiDAR/samples/ros2/vsemi_limu/../../../driver/include/frame.hpp:16:14:[m[K [01;35m[Kwarning: [m[K  ‘[01m[Kuint16_t Frame::dataType[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+   16 |     uint16_t [01;35m[KdataType[m[K;
+      |              [01;35m[K^~~~~~~~[m[K
+[01m[K/home/vsemi/dev/LiMu-3D-LiDAR/driver/src/frame.cpp:6:1:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+    6 | [01;35m[KFrame[m[K::Frame(uint16_t dataType_, uint64_t frame_id_, uint16_t width_, uint16_t height_, uint16_t payloadOffset) :
+      | [01;35m[K^~~~~[m[K
+In file included from [01m[K/home/vsemi/dev/LiMu-3D-LiDAR/driver/src/frame.cpp:1[m[K:
+[01m[K/home/vsemi/dev/LiMu-3D-LiDAR/samples/ros2/vsemi_limu/../../../driver/include/frame.hpp:25:26:[m[K [01;35m[Kwarning: [m[K‘[01m[KFrame::dcsData[m[K’ will be initialized after [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+   25 |     std::vector<uint8_t> [01;35m[KdcsData[m[K;
+      |                          [01;35m[K^~~~~~~[m[K
+[01m[K/home/vsemi/dev/LiMu-3D-LiDAR/samples/ros2/vsemi_limu/../../../driver/include/frame.hpp:19:14:[m[K [01;35m[Kwarning: [m[K  ‘[01m[Kuint16_t Frame::payloadHeaderOffset[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+   19 |     uint16_t [01;35m[KpayloadHeaderOffset[m[K;
+      |              [01;35m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/vsemi/dev/LiMu-3D-LiDAR/driver/src/frame.cpp:6:1:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+    6 | [01;35m[KFrame[m[K::Frame(uint16_t dataType_, uint64_t frame_id_, uint16_t width_, uint16_t height_, uint16_t payloadOffset) :
+      | [01;35m[K^~~~~[m[K
+In file included from [01m[K/home/vsemi/dev/LiMu-3D-LiDAR/driver/src/tcp_connection.cpp:1[m[K:
+[01m[K/home/vsemi/dev/LiMu-3D-LiDAR/driver/src/tcp_connection.hpp:[m[K In constructor ‘[01m[KTcpConnection::TcpConnection(const char*, const char*, boost::asio::io_service&)[m[K’:
+[01m[K/home/vsemi/dev/LiMu-3D-LiDAR/driver/src/tcp_connection.hpp:40:15:[m[K [01;35m[Kwarning: [m[K‘[01m[KTcpConnection::port[m[K’ will be initialized after [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+   40 |   const char* [01;35m[Kport[m[K;
+      |               [01;35m[K^~~~[m[K
+[01m[K/home/vsemi/dev/LiMu-3D-LiDAR/driver/src/tcp_connection.hpp:38:17:[m[K [01;35m[Kwarning: [m[K  ‘[01m[Kboost::asio::ip::tcp::resolver TcpConnection::resolver[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+   38 |   tcp::resolver [01;35m[Kresolver[m[K;
+      |                 [01;35m[K^~~~~~~~[m[K
+[01m[K/home/vsemi/dev/LiMu-3D-LiDAR/driver/src/tcp_connection.cpp:13:1:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+   13 | [01;35m[KTcpConnection[m[K::TcpConnection(const char* h, const char* p, boost::asio::io_service& ioService)
+      | [01;35m[K^~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/vsemi/dev/LiMu-3D-LiDAR/driver/src/tcp_connection.cpp:1[m[K:
+[01m[K/home/vsemi/dev/LiMu-3D-LiDAR/driver/src/tcp_connection.hpp:38:17:[m[K [01;35m[Kwarning: [m[K‘[01m[KTcpConnection::resolver[m[K’ will be initialized after [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+   38 |   tcp::resolver [01;35m[Kresolver[m[K;
+      |                 [01;35m[K^~~~~~~~[m[K
+[01m[K/home/vsemi/dev/LiMu-3D-LiDAR/driver/src/tcp_connection.hpp:37:32:[m[K [01;35m[Kwarning: [m[K  ‘[01m[Kstd::unique_ptr<boost::asio::basic_stream_socket<boost::asio::ip::tcp> > TcpConnection::socket[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+   37 |   std::unique_ptr<tcp::socket> [01;35m[Ksocket[m[K;
+      |                                [01;35m[K^~~~~~[m[K
+[01m[K/home/vsemi/dev/LiMu-3D-LiDAR/driver/src/tcp_connection.cpp:13:1:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+   13 | [01;35m[KTcpConnection[m[K::TcpConnection(const char* h, const char* p, boost::asio::io_service& ioService)
+      | [01;35m[K^~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/vsemi/dev/LiMu-3D-LiDAR/driver/src/tcp_connection.cpp:1[m[K:
+[01m[K/home/vsemi/dev/LiMu-3D-LiDAR/driver/src/tcp_connection.hpp:41:28:[m[K [01;35m[Kwarning: [m[K‘[01m[KTcpConnection::ioService[m[K’ will be initialized after [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+   41 |   boost::asio::io_service& [01;35m[KioService[m[K;
+      |                            [01;35m[K^~~~~~~~~[m[K
+[01m[K/home/vsemi/dev/LiMu-3D-LiDAR/driver/src/tcp_connection.hpp:36:17:[m[K [01;35m[Kwarning: [m[K  ‘[01m[KTcpConnection::State TcpConnection::state[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+   36 |   mutable State [01;35m[Kstate[m[K, previousState;
+      |                 [01;35m[K^~~~~[m[K
+[01m[K/home/vsemi/dev/LiMu-3D-LiDAR/driver/src/tcp_connection.cpp:13:1:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+   13 | [01;35m[KTcpConnection[m[K::TcpConnection(const char* h, const char* p, boost::asio::io_service& ioService)
+      | [01;35m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/vsemi/dev/LiMu-3D-LiDAR/driver/src/tcp_connection.cpp:[m[K In member function ‘[01m[Kbool TcpConnection::isConnected() const[m[K’:
+[01m[K/home/vsemi/dev/LiMu-3D-LiDAR/driver/src/tcp_connection.cpp:255:34:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Kendpoint[m[K’ set but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-but-set-variable-Wunused-but-set-variable]8;;[m[K]
+  255 |   boost::asio::ip::tcp::endpoint [01;35m[Kendpoint[m[K = socket->remote_endpoint(ec);
+      |                                  [01;35m[K^~~~~~~~[m[K
+In file included from [01m[K/home/vsemi/dev/LiMu-3D-LiDAR/driver/src/tof320.cpp:1[m[K:
+[01m[K/home/vsemi/dev/LiMu-3D-LiDAR/driver/src/tof320.hpp:[m[K In constructor ‘[01m[KToF320::ToF320(char*, const char*)[m[K’:
+[01m[K/home/vsemi/dev/LiMu-3D-LiDAR/driver/src/tof320.hpp:86:17:[m[K [01;35m[Kwarning: [m[K‘[01m[KToF320::tcpConnection[m[K’ will be initialized after [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+   86 |   TcpConnection [01;35m[KtcpConnection[m[K;
+      |                 [01;35m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/vsemi/dev/LiMu-3D-LiDAR/driver/src/tof320.hpp:58:8:[m[K [01;35m[Kwarning: [m[K  ‘[01m[Kbool ToF320::isStreaming[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+   58 |   bool [01;35m[KisStreaming[m[K;
+      |        [01;35m[K^~~~~~~~~~~[m[K
+[01m[K/home/vsemi/dev/LiMu-3D-LiDAR/driver/src/tof320.cpp:10:1:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+   10 | [01;35m[KToF320[m[K::ToF320(char* host, const char* port) :
+      | [01;35m[K^~~~~~[m[K
+[01m[K/home/vsemi/dev/LiMu-3D-LiDAR/driver/src/tof320.cpp:[m[K In member function ‘[01m[Kstd::shared_ptr<CameraInfo> ToF320::getCameraInfo(const Packet&)[m[K’:
+[01m[K/home/vsemi/dev/LiMu-3D-LiDAR/driver/src/tof320.cpp:352:32:[m[K [01;35m[Kwarning: [m[Koperation on ‘[01m[Koffset[m[K’ may be undefined [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsequence-point-Wsequence-point]8;;[m[K]
+  352 |     camInfo->width  = (p[[01;35m[Koffset++[m[K] << 8) + p[offset++];
+      |                          [01;35m[K~~~~~~^~[m[K
+[01m[K/home/vsemi/dev/LiMu-3D-LiDAR/driver/src/tof320.cpp:353:32:[m[K [01;35m[Kwarning: [m[Koperation on ‘[01m[Koffset[m[K’ may be undefined [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsequence-point-Wsequence-point]8;;[m[K]
+  353 |     camInfo->height = (p[[01;35m[Koffset++[m[K] << 8) + p[offset++];
+      |                          [01;35m[K~~~~~~^~[m[K
+[01m[K/home/vsemi/dev/LiMu-3D-LiDAR/driver/src/tof320.cpp:354:32:[m[K [01;35m[Kwarning: [m[Koperation on ‘[01m[Koffset[m[K’ may be undefined [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsequence-point-Wsequence-point]8;;[m[K]
+  354 |     camInfo->roiX0  = (p[[01;35m[Koffset++[m[K] << 8) + p[offset++];
+      |                          [01;35m[K~~~~~~^~[m[K
+[01m[K/home/vsemi/dev/LiMu-3D-LiDAR/driver/src/tof320.cpp:355:32:[m[K [01;35m[Kwarning: [m[Koperation on ‘[01m[Koffset[m[K’ may be undefined [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsequence-point-Wsequence-point]8;;[m[K]
+  355 |     camInfo->roiY0  = (p[[01;35m[Koffset++[m[K] << 8) + p[offset++];
+      |                          [01;35m[K~~~~~~^~[m[K
+[01m[K/home/vsemi/dev/LiMu-3D-LiDAR/driver/src/tof320.cpp:356:32:[m[K [01;35m[Kwarning: [m[Koperation on ‘[01m[Koffset[m[K’ may be undefined [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsequence-point-Wsequence-point]8;;[m[K]
+  356 |     camInfo->roiX1  = (p[[01;35m[Koffset++[m[K] << 8) + p[offset++];
+      |                          [01;35m[K~~~~~~^~[m[K
+[01m[K/home/vsemi/dev/LiMu-3D-LiDAR/driver/src/tof320.cpp:357:32:[m[K [01;35m[Kwarning: [m[Koperation on ‘[01m[Koffset[m[K’ may be undefined [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsequence-point-Wsequence-point]8;;[m[K]
+  357 |     camInfo->roiY1  = (p[[01;35m[Koffset++[m[K] << 8) + p[offset++];
+      |                          [01;35m[K~~~~~~^~[m[K
+[01m[K/home/vsemi/dev/LiMu-3D-LiDAR/driver/src/tof320.cpp:[m[K In member function ‘[01m[Kvoid ToF320::computeFrame(std::shared_ptr<Frame>)[m[K’:
+[01m[K/home/vsemi/dev/LiMu-3D-LiDAR/driver/src/tof320.cpp:376:12:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kmax_X[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  376 |     double [01;35m[Kmax_X[m[K = 0.0, z_max_X = 0.0;
+      |            [01;35m[K^~~~~[m[K
+[01m[K/home/vsemi/dev/LiMu-3D-LiDAR/driver/src/tof320.cpp:376:25:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kz_max_X[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  376 |     double max_X = 0.0, [01;35m[Kz_max_X[m[K = 0.0;
+      |                         [01;35m[K^~~~~~~[m[K
+[01m[K/home/vsemi/dev/LiMu-3D-LiDAR/driver/src/tof320.cpp:377:12:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kmin_X[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  377 |     double [01;35m[Kmin_X[m[K = 1000.0, z_min_X = 0.0;
+      |            [01;35m[K^~~~~[m[K
+[01m[K/home/vsemi/dev/LiMu-3D-LiDAR/driver/src/tof320.cpp:377:28:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kz_min_X[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  377 |     double min_X = 1000.0, [01;35m[Kz_min_X[m[K = 0.0;
+      |                            [01;35m[K^~~~~~~[m[K
+[01m[K/home/vsemi/dev/LiMu-3D-LiDAR/driver/src/tof320.cpp:385:76:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kp_index[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  385 |     int i_data_point = 0, i_2d_color = 0, i_point_3d = 0, i_out_index = 0, [01;35m[Kp_index[m[K = 0;
+      |                                                                            [01;35m[K^~~~~~~[m[K
+[01m[K/home/vsemi/dev/LiMu-3D-LiDAR/samples/ros2/vsemi_limu/src/vsemi_limu_node.cpp:[m[K In member function ‘[01m[Kvoid LimuLidar::shutdown()[m[K’:
+[01m[K/home/vsemi/dev/LiMu-3D-LiDAR/samples/ros2/vsemi_limu/src/vsemi_limu_node.cpp:222:9:[m[K [01;35m[Kwarning: [m[Kdeleting object of abstract class type ‘[01m[KToF[m[K’ which has non-virtual destructor will cause undefined behavior [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdelete-non-virtual-dtor-Wdelete-non-virtual-dtor]8;;[m[K]
+  222 |         [01;35m[Kdelete m_tof[m[K;
+      |         [01;35m[K^~~~~~~~~~~~[m[K
+[01m[K/home/vsemi/dev/LiMu-3D-LiDAR/samples/ros2/vsemi_limu/src/vsemi_limu_node.cpp:[m[K In constructor ‘[01m[KVsemiLimuNode::VsemiLimuNode()[m[K’:
+[01m[K/home/vsemi/dev/LiMu-3D-LiDAR/samples/ros2/vsemi_limu/src/vsemi_limu_node.cpp:263:14:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kstatus[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  263 |         bool [01;35m[Kstatus[m[K = m_limu->start();
+      |              [01;35m[K^~~~~~[m[K

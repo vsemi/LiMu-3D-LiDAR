@@ -1,0 +1,8 @@
+source;share/vsemi_limu/hook/cmake_prefix_path.ps1
+source;share/vsemi_limu/hook/cmake_prefix_path.dsv
+source;share/vsemi_limu/hook/cmake_prefix_path.sh
+source;share/vsemi_limu/local_setup.bash
+source;share/vsemi_limu/local_setup.dsv
+source;share/vsemi_limu/local_setup.ps1
+source;share/vsemi_limu/local_setup.sh
+source;share/vsemi_limu/local_setup.zsh

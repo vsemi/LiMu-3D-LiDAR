@@ -1,0 +1,79 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-3b2c855fffc059fd6ebc.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "vsemi_limu",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-dd6d909cfcf836f26742.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "vsemi_limu_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-vsemi_limu_node-ee782474ac10c197d9dd.json",
+					"name" : "vsemi_limu_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "vsemi_limu_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-vsemi_limu_uninstall-3efc2b11f1ce12ca7b68.json",
+					"name" : "vsemi_limu_uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/vsemi/dev/LiMu-3D-LiDAR/samples/ros2/build/vsemi_limu",
+		"source" : "/home/vsemi/dev/LiMu-3D-LiDAR/samples/ros2/vsemi_limu"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

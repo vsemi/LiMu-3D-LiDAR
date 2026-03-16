@@ -1,0 +1,4 @@
+source;share/vsemi_limu/local_setup.bash
+source;share/vsemi_limu/local_setup.dsv
+source;share/vsemi_limu/local_setup.sh
+source;share/vsemi_limu/local_setup.zsh
